@@ -1,6 +1,6 @@
 import Card from '../card/card'
 
-const cardsTitle = ['titulo 1', 'titulo 2', 'titulo 3']
+const cardsTitle = ['titulo 1']
 
 const changeColor = () => {
     Card.style.backgroundColor = 'red';
@@ -15,7 +15,7 @@ const Cards = () => {
                 cardsTitle.map((cardsTitle, index) => (
                     <Card key={index} changeColor={changeColor}>
                         <h3>{cardsTitle}</h3>
-                        <p> a cor desse texto será alterada quando clicar no botão</p>
+                        <p> clique no botão para estilizar o texto</p>
                     </Card>
                 ))
             }

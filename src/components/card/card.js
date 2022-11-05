@@ -10,7 +10,7 @@ const Card = ({children,color,changeColor}) => {
 }
 
 Card.defaultProps = {
-    color: 'red'
+    color: '#808080'
 }
 
 export default Card
